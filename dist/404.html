@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
   <head>
     <meta charset="utf-8" />
     <title>Hadi Bakalım Blog</title>
     <script>
-      // GitHub Pages için SPA yönlendirme hilesi
-      sessionStorage.setItem('redirect', location.href);
+      // GitHub Pages SPA Yönlendirme Hilesi
+      // Tüm istekleri index.html'e yönlendirir, React Router rotayı yönetir
+      sessionStorage.setItem('gh-redirect', location.href);
       location.replace('/hadibakalimblog/');
     </script>
   </head>
